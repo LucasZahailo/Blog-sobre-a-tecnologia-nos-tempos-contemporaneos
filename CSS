@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futuro Tech - O Impacto da Tecnologia nos Tempos Contemporâneos</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f7f6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+            color: #fff;
+            padding: 3rem 1rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        /* Navegação */
+        nav {
+            background-color: #0f172a;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #38bdf8;
+        }
+
+        /* Layout Principal */
+        .container {
+            max-width: 1100px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            display: grid;
+            grid-template-columns: 3fr 1fr;
+            gap: 2rem;
+        }
+
+        /* Postagens */
+        article {
+            background: #fff;
+            padding: 2rem;
+            margin-bottom: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        article h2 {
+            color: #1e3c72;
+            margin-bottom: 0.5rem;
+        }
+
+        .meta {
+            font-size: 0.85rem;
+            color: #666;
+            margin-bottom: 1.5rem;
+        }
+
+        article p {
+            margin-bottom: 1rem;
+        }
+
+        .highlight {
+            background-color: #e0f2fe;
+            border-left: 4px solid #0284c7;
+            padding: 1rem;
+            margin: 1rem 0;
+            font-style: italic;
+        }
+
+        /* Barra Lateral */
+        aside {
+            background: #fff;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            height: fit-content;
+        }
+
+        aside h3 {
+            color: #1e3c72;
+            margin-bottom: 1rem;
+            border-bottom: 2px solid #f4f7f6;
+            padding-bottom: 0.5rem;
+        }
+
+        aside ul {
+            list-style: none;
+        }
+
+        aside ul li {
+            margin-bottom: 0.8rem;
+        }
+
+        aside ul li a {
+            color: #2a5298;
+            text-decoration: none;
+        }
+
+        aside ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Rodapé */
+        footer {
+            background-color: #0f172a;
+            color: #fff;
+            text-align: center;
+            padding: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .container {
+                grid-template-columns: 1fr;
+            }
+            
+            header h1 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Futuro Tech</h1>
+        <p>Reflexões sobre a tecnologia e seus impactos nos tempos contemporâneos</p>
+    </header>
+
+    <nav>
+        <a href="#">Início</a>
+        <a href="#">Inteligência Artificial</a>
+        <a href="#">Mercado de Trabalho</a>
+        <a href="#">Sociedade</a>
+        <a href="#">Sobre</a>
+    </nav>
+
+    <div class="container">
+        <main>
+            <article>
+                <h2>A Revolução da Inteligência Artificial no Cotidiano</h2>
+                <div class="meta">Publicado em 24 de Maio de 2024 | Por Alex Silva</div>
+                <p>A tecnologia deixou de ser apenas uma ferramenta de suporte para se tornar a infraestrutura base das relações humanas contemporâneas. Entre todas as inovações recentes, a Inteligência Artificial (IA) se destaca como o motor principal dessa transformação.</p>
+                
+                <div class="highlight">
+                    "A tecnologia não redefine apenas o que fazemos, mas fundamentalmente quem somos e como nos conectamos com o mundo ao nosso redor."
+                </div>
+
+                <p>Desde a automação de tarefas repetitivas até a criação de arte e assistência médica diagnóstica, a IA está reconfigurando o que entendemos por produtividade e criatividade. Nos tempos atuais, adaptar-se a essa realidade não é mais um diferencial, mas uma necessidade.</p>
+            </article>
+
+            <article>
+                <h2>O Futuro do Trabalho e as Novas Habilidades</h2>
+                <div class="meta"></div>
+                <p>Com o avanço da automação, surgem incertezas sobre o mercado de trabalho. Enquanto algumas profissões tradicionais passam por transformações severas, novas carreiras focadas em análise de dados, segurança cibernética e ética tecnológica ganham espaço.</p>
+                <p>As habilidades estritamente técnicas já não bastam; o mercado contemporâneo exige o desenvolvimento de <em>soft skills</em> — como pensamento crítico, empatia, adaptabilidade e resolução de problemas complexos —, capacidades que a tecnologia ainda não consegue replicar com precisão.</p>
+            </article>
+        </main>
+
+        <aside>
+            <h3>Tópicos em Alta</h3>
+            <ul>
+                <li><a href="#">Ética na Inteligência Artificial</a></li>
+                <li><a href="#">O Impacto das Redes Sociais na Saúde Mental</a></li>
+                <li><a href="#">Cidades Inteligentes e Sustentabilidade</a></li>
+                <li><a href="#">Trabalho Remoto e Cultura Organizacional</a></li>
+            </ul>
+
+            <h3 style="margin-top: 2rem;">Sobre o Blog</h3>
+            <p>O <strong>Futuro Tech</strong> é um espaço dedicado a discutir como as inovações tecnológicas moldam nossa sociedade, economia e comportamento no século XXI.</p>
+        </aside>
+    </div>
+
+    <footer>
+        <p>&copy;.</p>
+    </footer>
+
+</body>
+</html>/* Reset básico e configurações gerais */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f7f6;
+}
+
+/* Cabeçalho */
+header {
+    background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
+    color: #fff;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Navegação */
+nav {
+    background-color: #0f172a;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #38bdf8;
+}
+
+/* Container Principal - Ajuste da largura e Flexbox */
+.container {
+    max-width: 1100px; /* Ajuste da largura máxima para adaptação à tela */
+    margin: 2rem auto;
+    padding: 0 1rem;
+    display: flex; /* Posicionamento flexível */
+    flex-wrap: wrap; /* Permite quebrar linha em telas menores */
+    justify-content: space-between; /* Controle de alinhamento dos cartões e sidebar */
+    align-items: flex-start; /* Alinhamento vertical no topo */
+    gap: 2rem; /* Espaçamento entre as colunas */
+}
+
+/* Área Principal dos Artigos */
+main {
+    flex: 3; /* Ocupa 3 partes do espaço disponível */
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem; /* Espaçamento entre os cartões de posts */
+}
+
+/* Cartões de Postagens */
+article {
+    background: #fff;
+    padding: 2rem; /* Melhora de espaçamento interno */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+article h2 {
+    color: #1e3c72;
+    margin-bottom: 0.5rem;
+}
+
+.meta {
+    font-size: 0.85rem;
+    color: #666;
+    margin-bottom: 1.5rem;
+}
+
+article p {
+    margin-bottom: 1rem;
+}
+
+.highlight {
+    background-color: #e0f2fe;
+    border-left: 4px solid #0284c7;
+    padding: 1rem;
+    margin: 1rem 0;
+    font-style: italic;
+}
+
+/* Barra Lateral (Aside) */
+aside {
+    flex: 1; /* Ocupa 1 parte do espaço disponível */
+    min-width: 260px;
+    background: #fff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* Espaçamento entre seções da barra lateral */
+}
+
+aside h3 {
+    color: #1e3c72;
+    border-bottom: 2px solid #f4f7f6;
+    padding-bottom: 0.5rem;
+}
+
+aside ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem; /* Espaçamento entre itens da lista */
+}
+
+aside ul li a {
+    color: #2a5298;
+    text-decoration: none;
+}
+
+aside ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+    background-color: #0f172a;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column; /* Em telas menores, os cartões ficam empilhados */
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+    }
+}
